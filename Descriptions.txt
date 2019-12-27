@@ -1,0 +1,48 @@
+Cube is represented as a 6 x 9 array
+ 
+Colors and sides are named like:
+
+Front   = side 0 = White    = W
+Left    = side 1 = Blue     = B
+Right   = side 2 = Green    = G
+Upper   = side 3 = red      = R
+Lower   = side 4 = Orange   = O
+Back    = side 5 = Yellow   = Y
+
+cubes on a side is numbered from 0-8 as
+0 1 2
+3 4 5
+6 7 8
+
+### Cube representation as side number ###
+- - - 3 3 3 - - - - - -
+- - - 3 3 3 - - - - - -
+- - - 3 3 3 - - - - - -
+1 1 1 0 0 0 2 2 2 5 5 5
+1 1 1 0 0 0 2 2 2 5 5 5
+1 1 1 0 0 0 2 2 2 5 5 5
+- - - 4 4 4 - - - - - -
+- - - 4 4 4 - - - - - -
+- - - 4 4 4 - - - - - -
+
+### Solved cube representation by color ###
+- - - R R R - - - - - -
+- - - R R R - - - - - -
+- - - R R R - - - - - -
+B B B W W W G G G Y Y Y
+B B B W W W G G G Y Y Y
+B B B W W W G G G Y Y Y
+- - - O O O - - - - - -
+- - - O O O - - - - - -
+- - - O O O - - - - - -
+
+### Cube positions in array ###
+-  -  -  0  1  2  -  -  -  -  -  -
+-  -  -  3  4  5  -  -  -  -  -  -
+-  -  -  6  7  8  -  -  -  -  -  -
+9  10 11 12 13 14 15 16 17 18 19 20
+21 22 23 24 25 26 27 28 29 30 31 32
+33 34 35 36 37 38 39 40 41 42 43 44
+-  -  -  45 46 48 -  -  -  -  -  -
+-  -  -  49 50 51 -  -  -  -  -  -
+-  -  -  52 53 54 -  -  -  -  -  -
